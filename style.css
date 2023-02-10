@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.6em;
+    /* font-style: italic; */
+    /* font: bold 17px 'Roboto', sans-serif; */
+    /* background: rgba(92, 130, 227, 1); */
+    /* background: #fd7e14; */
+    background-image: url('https://img.freepik.com/premium-photo/abstract-background-gradient-dark-blue-to-red-this-background-can-be-used-for-your-social-media-content-video-advertisement-website_259266-3380.jpg');
+    /* color: #0f141e; */
+    /* color: rgba(92, 130, 227, 1); */
+    /* color: rgba(92, 130, 182, 1); */
+}
+
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.student {
+    color:rgb(254, 254, 255);
+    padding-left: 590px;
+    padding-top: 10px;
+    /* background: black; */
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .student {
+        padding-left: 235px;
+    }
+}
+
+.info {
+    display: flex;
+}
+
+.info img {
+    width: 350px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.943);
+    margin-bottom: 20px;
+}
+
+.info-text {
+    color: rgb(254, 254, 255);
+    background: rgb(24, 39, 59);
+    border-radius: 10px;
+    /* padding: 5px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.785);
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.info-text p {
+    font-weight: bold;
+    /* font-style: italic; */
+    font-size: 18px;
+    /* color: rgb(254, 254, 255); */
+    color: rgb(166, 193, 230);
+    /* padding-left: 10px; */
+}
+
+@media (max-width: 800px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info-text {
+        padding: 30px;
+    }
+}
+
+.hobby {
+    /* background: rgb(137, 161, 128); */
+    background: rgb(24, 39, 59);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.785);
+}
+
+.hobby h2 {
+    color: rgb(254, 254, 255);
+}
+
+
+.purple {
+    color: rgb(233, 126, 59);
+    list-style: none;
+    padding: 0;
+}
+
+.purple li {
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+
+.work {
+    /* background: rgb(196, 87, 4); */
+    background: rgb(24, 39, 59);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    color:rgb(254, 254, 255);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.785);
+}
+
+.work table {
+    width: 100%;
+}
+
+.work h2 {
+    padding-left: 235px;
+}
+
+@media (max-width: 800px) {
+    .work h2 {
+        padding-left: 128px;
+    }
+}
+
+.works td {
+    text-align: center;
+    padding-right: 70px;
+    padding-bottom: 15px;
+}
+
+.works td:nth-child(1) {
+    color: rgb(233, 126, 59);
+}
+
+.works td:nth-child(1), .works td:nth-child(2), .works td:nth-child(3)  {
+    /* background: #d4a004; */
+    padding-top: 15px;
+}
+
+.course {
+    /* background: rgb(47, 109, 197); */
+    background: rgb(24, 39, 59);
+    padding: 30px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    color: rgb(254, 254, 255);
+}
+
+.course table {
+    width: 100%;
+}
+
+.course h2 {
+    padding-left: 270px;
+}
+
+@media (max-width: 800px) {
+    .course h2 {
+        padding-left: 180px;
+    }
+}
+
+.courses td {
+    text-align: center;
+}
+
+.contact {
+    /* background: rgb(64, 96, 0); */
+    background: rgb(24, 39, 59);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    color: rgb(254, 254, 255);
+
+}
+
+.contact h2 {
+    padding-left: 30px;
+}
+
+.contacts img {
+    width: 50px;
+    border-radius: 10px;
+    
+}
+
+.contacts a {
+    text-decoration: none;
+    color: rgb(254, 254, 255);
+}
+
+.contacts td {
+    text-align: center;
+    padding-left: 80px;
+}
+
+.contacts a:hover {
+    /* color: rgb(166, 193, 230); */
+    color:rgb(233, 126, 59)
+}
+
+.contacts a:active {
+    color: rgb(166, 193, 230);
+}

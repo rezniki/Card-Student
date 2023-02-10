@@ -2,4 +2,4 @@
 
 ## Результат работы можете посмотреть тут
 
-[Карточка студента для университета](https://rezniki.github.io/Card-Student/).
+[Карточка студента для Result School](https://rezniki.github.io/Card-Student/).
